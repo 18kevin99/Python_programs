@@ -1,0 +1,10 @@
+import turtle
+wn = turtle.Screen()
+kevin = turtle.Turtle()
+dist = 10
+angle = 100
+for i in range(100):
+  kevin.forward(dist)
+  kevin.left(angle)
+  dist += 3.33
+  angle -= .33

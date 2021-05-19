@@ -1,0 +1,55 @@
+import math
+import random
+import pygame
+from tkinter import *
+from PIL import Image, ImageTk
+
+class Cube(object):
+    row=0
+    w= 0
+    def __init__(self,start, dirnx = 1, dirny =0, color = (255,0,0)):
+        pass
+    
+    def move(self, dirnx, dirny):
+        pass
+    
+    def draw(self, surface, eyes = False):
+        pass
+
+
+class Snake(object):
+    def __init__(self, color , pos):
+        pass
+
+    def move(self):
+        pass
+
+    def reset(self, pos):
+
+    def reset(self, pos):
+
+    def addCube(self):
+
+    def draw(self, surface):
+
+
+def DrawGrid(w, rows, surface):
+
+
+def RedrawWindow(surface):
+
+def RandomSnack(rows, items):
+
+def Message_Box(subject, content):
+
+def main():
+    win = pygame.display
+
+
+rows = 
+w=
+h= 
+cube.rows = rows
+cube.w = w
+
+main()
